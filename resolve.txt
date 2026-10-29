@@ -1,0 +1,21 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo apt install git
+    4  git config --global user.name "kirill"
+    5  git config --global user.email "kirilltroickij258@gmail.com"
+    6  ssh-keygen ed25519
+    7  ssh-keygen -t ed25519
+    8  cat ~/.ssh/id_ed25519.pub
+    9  mkdir laba
+   10  cd laba
+   11  git init
+   12  touch file1
+   13  touch file2
+   14  git add .
+   15  git commit -m "initial commit"
+   16  nano file1
+   17  nano file2
+   18  git add file1
+   19  touch file3
+   20  git status
+   21  history > resolve.txt
